@@ -17,20 +17,20 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //owmner v card
 //________________________________________________________________________________________________________
-global.ytname = process.env.YT_NAME || "YT: heyits_tylor" //ur yt chanel name
+global.ytname = process.env.YT_NAME || "MRWILL-available" //ur yt chanel name
 //________________________________________________________________________________________________________
-global.socialm = process.env.MEDIA || "GitHub: Dark-Xploit" //ur github or insta name
+global.socialm = process.env.MEDIA || "GitHub: MRWILL-available " //ur github or insta name
 //________________________________________________________________________________________________________
-global.location = process.env.GL_INFO || "Kenya, Nairobi, Kasarani" //ur location
+global.location = process.env.GL_INFO || "Ghana,Accra,Koforidua" //ur location
 //________________________________________________________________________________________________________
 
 //new
 //________________________________________________________________________________________________________
-global.botname = process.env.BOT_NAME || '𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭' //ur bot name
+global.botname = process.env.BOT_NAME || 'MRWILL-available' //ur bot name
 //________________________________________________________________________________________________________
-global.ownernumber = process.env.SUDO || '254796180105' //ur owner number
+global.ownernumber = process.env.SUDO || '233247923525' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'Tylor' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'MRWILL' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@heyits_tylor"
 //________________________________________________________________________________________________________
@@ -40,17 +40,17 @@ global.themeemoji = process.env.GL_EMOJI || '🌚'
 //________________________________________________________________________________________________________
 global.wm = process.env.GL_WM || "©𝐗𝐩𝐥𝐨𝐚𝐝𝐞𝐫𝐁𝐨𝐭"
 //________________________________________________________________________________________________________
-global.botscript = process.env.GL_SC || 'wa.me/254796180105' //script link
+global.botscript = process.env.GL_SC || 'wa.me/233247923525' //script link
 //________________________________________________________________________________________________________
 global.packname = process.env.PACK_NAME || "Xploader"
 //________________________________________________________________________________________________________
 global.author = process.env.AUTHER_NAME || "V2"
 //________________________________________________________________________________________________________
-global.creator = process.env.GL_DEVS || "254796180105@s.whatsapp.net"
+global.creator = process.env.GL_DEVS || "233247923525@s.whatsapp.net"
 //________________________________________________________________________________________________________
 global.xprefix = process.env.PREFIX || '.'
 //________________________________________________________________________________________________________
-global.premium = process.env.GL_VIP || ["254796180105"] // Premium User
+global.premium = process.env.GL_VIP || ["233247923525"] // Premium User
 //________________________________________________________________________________________________________
 global.hituet = 0
 //________________________________________________________________________________________________________
@@ -65,7 +65,7 @@ global.autoblocknumber = process.env.AUTO_BAN || '' //set autoblock country code
 //________________________________________________________________________________________________________
 global.antiforeignnumber = process.env.AUTO_BLOCK || '' //set anti foreign number country code
 //________________________________________________________________________________________________________
-global.welcome = process.env.WELCOME_MSG || false //welcome/left in groups
+global.welcome = process.env.WELCOME_MSG || true //welcome/left in groups
 //________________________________________________________________________________________________________
 global.anticall = process.env.GL_NOCALL || false //bot blocks user when called
 //________________________________________________________________________________________________________
